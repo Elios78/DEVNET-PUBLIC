@@ -1,0 +1,17 @@
+---
+device:Alcatel:
+  name: ALU1
+  configuration:network:
+      ip: 192.168.1.1
+      ipv6: ""
+
+device:Cisco:
+  -  name: Router1
+     configuration:network:
+       ip: 10.0.0.1
+       ipv6: 2000::1/3
+  -  name: Router2
+     configuration:network:
+       ip: 10.0.0.2
+       ipv6: 2000::2/3
+

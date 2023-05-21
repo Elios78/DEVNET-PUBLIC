@@ -1,0 +1,39 @@
+{
+	"Alcatel":[
+		{ 
+			"name":"ALU1",
+			"configuration": [
+					{
+						"ip":"192.168.1.1",
+						"ipv6":"NULL"
+					}
+			]
+
+		}
+		],
+	"Cisco":[
+                { 
+                        "name":"Router1",
+                        "configuration": [
+                                        {
+                                                "ip":"10.0.0.1",
+                                                "ipv6":"2000::1/3"
+                                        }
+                        ]
+
+                },
+		{
+                        "name":"Router2",
+                        "configuration": [
+                                        {
+                                                "ip":"10.0.0.2",
+                                                "ipv6":"2000::2/3"
+                                        }
+                        ]
+
+                }
+
+                ]
+
+
+}
